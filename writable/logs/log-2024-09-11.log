@@ -1,0 +1,180 @@
+INFO - 2024-09-11 08:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 08:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 08:37:23 --> CSRF token verified.
+INFO - 2024-09-11 08:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 08:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-11 13:06:07 --> ParseError: syntax error, unexpected variable "$email", expecting "function" or "const"
+[Method: GET, Route: userLogged/chart/8]
+in APPPATH\Controllers\ChartController.php on line 161.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Controllers\\ChartController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ChartController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ChartController')
+ 4 SYSTEMPATH\Debug\Toolbar\Collectors\Routes.php(86): ReflectionMethod->__construct('\\App\\Controllers\\ChartController', 'buy')
+ 5 SYSTEMPATH\Debug\Toolbar\Collectors\BaseCollector.php(228): CodeIgniter\Debug\Toolbar\Collectors\Routes->display()
+ 6 SYSTEMPATH\Debug\Toolbar.php(96): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+ 7 SYSTEMPATH\Debug\Toolbar.php(391): CodeIgniter\Debug\Toolbar->run(1726059966.269121, 0.7036, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 8 SYSTEMPATH\Filters\DebugToolbar.php(43): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 9 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+10 SYSTEMPATH\Filters\Filters.php(291): CodeIgniter\Filters\Filters->runAfter([...])
+11 SYSTEMPATH\CodeIgniter.php(409): CodeIgniter\Filters\Filters->runRequired('after')
+12 SYSTEMPATH\CodeIgniter.php(372): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-11 13:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:10:06 --> CSRF token verified.
+INFO - 2024-09-11 13:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-11 13:10:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-09-11 13:10:25 --> 220 MI2P293CA0007.outlook.office365.com Microsoft ESMTP MAIL Service ready at Wed, 11 Sep 2024 13:10:23 +0000 [08DCD1FC52FB4E90]
+
+hello: 250-MI2P293CA0007.outlook.office365.com Hello [2a0e:419:6eb4:0:e9e8:8d28:81b4:37a7]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-STARTTLS
+250-8BITMIME
+250-BINARYMIME
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 SMTP server ready
+
+hello: 250-MI2P293CA0007.outlook.office365.com Hello [2a0e:419:6eb4:0:e9e8:8d28:81b4:37a7]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH LOGIN XOAUTH2
+250-8BITMIME
+250-BINARYMIME
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 Sender OK
+
+to: 250 2.1.5 Recipient OK
+
+data: 354 Start mail input; end with <CRLF>.<CRLF>
+
+554 5.2.252 SendAsDenied; provandodinuovo@outlook.it not allowed to send as phpprova@outlook.it; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 1.84300:0A000000, 1.84300:0A000000, 1.84300:0E000000, 1.84300:32000000, 1.116652:F5160000, 1.81836:36020000, 0.117068:56000000, 1.79180:0A000000, 1.79180:0A000000, 1.79180:0E000000, 1.79180:32000000, 1.79180:FA000000, 0.731
+quit: 00:56000000, 0.38698:05000780, 1.41134:87000000, 1.41134:47000000, 0.37692:87000000, 0.37948:7A000100, 5.33852:00000000534D545000CE99B7, 7.36354:010000000000010929B23102, 4.56248:DC040000, 7.40748:010000000000010B87000000, 7.57132:000000000000000000000000, 4.39640:DC040000, 1.63016:32000000, 8.45434:01400300067DCFD0000000000000000030373A50, 1.46798:04000000, 5.10786:0000000031352E32302E373936322E3030373A505241505230324D42373933313A31336439643365352D396263362D343664652D623864352D6235323962343537333132643A3130343338383A2E4E455420382E302E380002000000, 7.51330:B046E11963D2DC0800000000, 0.39570:07000000, 1.55954:0A000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.55954:0A000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.64146:0E000000, 1.33010:0E000000, 2.54258:00000000, 1.33010:0E000000, 2.54258:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 1.33010:32000000, 2.54258:DC040000, 0.79500:13000000, 0.100684:13000000, 4.120460:DC040000, 1.52466:02000000, 1.52466:02000000, 1.42738:05000000, 0.37698:58000000, 1.42738:05000000, 0.37698:09000000, 1.52466:01000000, 0.60402:02000000, 1.52466:01000000[EndDiagnosticData] [Hostname=PRAPR02MB7931.eurprd02.prod.outlook.com]
+221 2.0.0 Service closing transmission channel
+
+The following SMTP error was encountered: 00:56000000, 0.38698:05000780, 1.41134:87000000, 1.41134:47000000, 0.37692:87000000, 0.37948:7A000100, 5.33852:00000000534D545000CE99B7, 7.36354:010000000000010929B23102, 4.56248:DC040000, 7.40748:010000000000010B87000000, 7.57132:000000000000000000000000, 4.39640:DC040000, 1.63016:32000000, 8.45434:01400300067DCFD0000000000000000030373A50, 1.46798:04000000, 5.10786:0000000031352E32302E373936322E3030373A505241505230324D42373933313A31336439643365352D396263362D343664652D623864352D6235323962343537333132643A3130343338383A2E4E455420382E302E380002000000, 7.51330:B046E11963D2DC0800000000, 0.39570:07000000, 1.55954:0A000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.55954:0A000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.64146:0E000000, 1.33010:0E000000, 2.54258:00000000, 1.33010:0E000000, 2.54258:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 1.33010:32000000, 2.54258:DC040000, 0.79500:13000000, 0.100684:13000000, 4.120460:DC040000, 1.52466:02000000, 1.52466:02000000, 1.42738:05000000, 0.37698:58000000, 1.42738:05000000, 0.37698:09000000, 1.52466:01000000, 0.60402:02000000, 1.52466:01000000[EndDiagnosticData] [Hostname=PRAPR02MB7931.eurprd02.prod.outlook.com]
+221 2.0.0 Service closing transmission channel
+
+The following SMTP error was encountered: 554 5.2.252 SendAsDenied; provandodinuovo@outlook.it not allowed to send as phpprova@outlook.it; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 1.84300:0A000000, 1.84300:0A000000, 1.84300:0E000000, 1.84300:32000000, 1.116652:F5160000, 1.81836:36020000, 0.117068:56000000, 1.79180:0A000000, 1.79180:0A000000, 1.79180:0E000000, 1.79180:32000000, 1.79180:FA000000, 0.731
+INFO - 2024-09-11 13:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:16:58 --> CSRF token verified.
+INFO - 2024-09-11 13:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:17:16 --> CSRF token verified.
+INFO - 2024-09-11 13:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-11 13:17:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-09-11 13:17:18 --> 220 MI2P293CA0006.outlook.office365.com Microsoft ESMTP MAIL Service ready at Wed, 11 Sep 2024 13:17:16 +0000 [08DCD1D8B1ECC58D]
+
+hello: 250-MI2P293CA0006.outlook.office365.com Hello [2a0e:419:6eb4:0:e9e8:8d28:81b4:37a7]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-STARTTLS
+250-8BITMIME
+250-BINARYMIME
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 SMTP server ready
+
+hello: 250-MI2P293CA0006.outlook.office365.com Hello [2a0e:419:6eb4:0:e9e8:8d28:81b4:37a7]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH LOGIN XOAUTH2
+250-8BITMIME
+250-BINARYMIME
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 Sender OK
+
+to: 250 2.1.5 Recipient OK
+
+data: 354 Start mail input; end with <CRLF>.<CRLF>
+
+554 5.2.252 SendAsDenied; provandodinuovo@outlook.it not allowed to send as phpprova@outlook.it; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 1.84300:0A000000, 1.84300:0A000000, 1.84300:0E000000, 1.84300:32000000, 1.116652:1E150000, 1.81836:36020000, 0.117068:56000000, 1.79180:0A000000, 1.79180:0A000000, 1.79180:0E000000, 1.79180:32000000, 1.79180:FA000000, 0.731
+quit: 00:2C000000, 0.38698:05000780, 1.41134:87000000, 1.41134:47000000, 0.37692:87000000, 0.37948:01000000, 5.33852:00000000534D545000CE99B7, 7.36354:010000000000010929B23102, 4.56248:DC040000, 7.40748:010000000000010B874A159B, 7.57132:000000000000000008000000, 4.39640:DC040000, 1.63016:32000000, 8.45434:01400300067DCFD000000000000000003664652D, 1.46798:04000000, 5.10786:0000000031352E32302E373936322E3030373A505241505230324D42373933313A31336439643365352D396263362D343664652D623864352D6235323962343537333132643A3130343338383A2E4E455420382E302E380000000000, 7.51330:D98BBA0F64D2DC0812000000, 0.39570:00000000, 1.55954:0A000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.55954:0A000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.64146:0E000000, 1.33010:0E000000, 2.54258:00000000, 1.33010:0E000000, 2.54258:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 1.33010:32000000, 2.54258:DC040000, 0.79500:13000000, 0.100684:13000000, 4.120460:DC040000, 1.52466:02000000, 1.52466:02000000, 1.42738:05000000, 0.37698:02000000, 1.42738:05000000, 0.37698:02000000, 1.52466:01000000, 0.60402:02000000, 1.52466:01000000[EndDiagnosticData] [Hostname=PRAPR02MB7931.eurprd02.prod.outlook.com]
+221 2.0.0 Service closing transmission channel
+
+The following SMTP error was encountered: 00:2C000000, 0.38698:05000780, 1.41134:87000000, 1.41134:47000000, 0.37692:87000000, 0.37948:01000000, 5.33852:00000000534D545000CE99B7, 7.36354:010000000000010929B23102, 4.56248:DC040000, 7.40748:010000000000010B874A159B, 7.57132:000000000000000008000000, 4.39640:DC040000, 1.63016:32000000, 8.45434:01400300067DCFD000000000000000003664652D, 1.46798:04000000, 5.10786:0000000031352E32302E373936322E3030373A505241505230324D42373933313A31336439643365352D396263362D343664652D623864352D6235323962343537333132643A3130343338383A2E4E455420382E302E380000000000, 7.51330:D98BBA0F64D2DC0812000000, 0.39570:00000000, 1.55954:0A000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.55954:0A000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.33010:0A000000, 2.54258:00000000, 0.40002:00000000, 1.56562:00000000, 1.64146:0E000000, 1.33010:0E000000, 2.54258:00000000, 1.33010:0E000000, 2.54258:00000000, 1.64146:32000000, 1.33010:32000000, 2.54258:DC040000, 1.33010:32000000, 2.54258:DC040000, 0.79500:13000000, 0.100684:13000000, 4.120460:DC040000, 1.52466:02000000, 1.52466:02000000, 1.42738:05000000, 0.37698:02000000, 1.42738:05000000, 0.37698:02000000, 1.52466:01000000, 0.60402:02000000, 1.52466:01000000[EndDiagnosticData] [Hostname=PRAPR02MB7931.eurprd02.prod.outlook.com]
+221 2.0.0 Service closing transmission channel
+
+The following SMTP error was encountered: 554 5.2.252 SendAsDenied; provandodinuovo@outlook.it not allowed to send as phpprova@outlook.it; STOREDRV.Submission.Exception:SendAsDeniedException.MapiExceptionSendAsDenied; Failed to process message due to a permanent exception with message [BeginDiagnosticData]Cannot submit message. 1.84300:0A000000, 1.84300:0A000000, 1.84300:0E000000, 1.84300:32000000, 1.116652:1E150000, 1.81836:36020000, 0.117068:56000000, 1.79180:0A000000, 1.79180:0A000000, 1.79180:0E000000, 1.79180:32000000, 1.79180:FA000000, 0.731
+INFO - 2024-09-11 13:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:03 --> CSRF token verified.
+INFO - 2024-09-11 13:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:26 --> CSRF token verified.
+INFO - 2024-09-11 13:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:40 --> CSRF token verified.
+INFO - 2024-09-11 13:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 13:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 14:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 14:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,764 @@
+INFO - 2024-09-03 06:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 06:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 06:36:03 --> CSRF token verified.
+INFO - 2024-09-03 06:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 06:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 06:37:11 --> CSRF token verified.
+INFO - 2024-09-03 06:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 06:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 06:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 06:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 06:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 06:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:10:12 --> CSRF token verified.
+INFO - 2024-09-03 07:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:10:27 --> CSRF token verified.
+INFO - 2024-09-03 07:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 07:46:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('home')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 07:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 07:46:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/home.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('users/home')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 07:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 07:47:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "users/home.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/home.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('users/home')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 07:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 07:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 08:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 08:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 08:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 09:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 09:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 09:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 09:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 10:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 10:08:06 --> ErrorException: Undefined variable $products
+[Method: GET, Route: /]
+in APPPATH\Views\users\home_guest.php on line 12.
+ 1 APPPATH\Views\users\home_guest.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('users/home_guest', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 10:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 10:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 10:11:00 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(30): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(35): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 10:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 10:12:23 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(30): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(35): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 10:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 10:15:38 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(30): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(35): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 11:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 11:18:12 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(34): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(35): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 11:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 11:18:28 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(35): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 11:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 11:18:29 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(35): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 11:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 11:23:35 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(34): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 11:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 11:23:36 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(34): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 12:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 12:11:24 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(34): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 12:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 12:12:38 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(37): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 12:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 12:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 14:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 14:01:45 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(37): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 14:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 14:02:42 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(37): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 14:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 14:05:34 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(31): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 14:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 14:06:13 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(31): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 14:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 14:08:32 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(35): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 14:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 14:08:34 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(35): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 14:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 14:08:36 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(35): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 14:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 14:08:37 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(1, 15, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(35): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 14:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 14:39:18 --> TypeError: CodeIgniter\Pager\Pager::makeLinks(): Argument #3 ($total) must be of type int, string given, called in C:\xampp\htdocs\ecommerce-ci\app\Views\users\home_guest.php on line 37
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 108.
+ 1 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(12, 26, 'custom_view')
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('users/home_guest', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 14:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 14:39:51 --> ErrorException: Undefined variable $page
+[Method: GET, Route: /]
+in APPPATH\Views\layout\pagination.php on line 43.
+ 1 APPPATH\Views\layout\pagination.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\layout\\pagination.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Pager\Pager.php(130): CodeIgniter\View\View->render('App\\Views\\layout\\pagination')
+ 5 SYSTEMPATH\Pager\Pager.php(114): CodeIgniter\Pager\Pager->displayLinks('default', 'custom_view')
+ 6 APPPATH\Views\users\home_guest.php(37): CodeIgniter\Pager\Pager->makeLinks(15, 12, 26, 'custom_view')
+ 7 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 8 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+10 APPPATH\Controllers\Home.php(35): view('users/home_guest', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 15:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 15:15:00 --> ErrorException: Undefined variable $data
+[Method: GET, Route: /]
+in APPPATH\Views\users\home_guest.php on line 12.
+ 1 APPPATH\Views\users\home_guest.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('users/home_guest', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 15:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 15:15:24 --> ErrorException: Undefined variable $data
+[Method: GET, Route: /]
+in APPPATH\Views\users\home_guest.php on line 12.
+ 1 APPPATH\Views\users\home_guest.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ecommerce-ci\\app\\Views\\users\\home_guest.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/home_guest', [], true)
+ 5 APPPATH\Controllers\Home.php(32): view('users/home_guest', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->products()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 15:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 15:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 15:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 15:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 15:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 15:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 15:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 15:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 15:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 15:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 15:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:15:01 --> CSRF token verified.
+INFO - 2024-09-03 16:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-03 16:15:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`address_id`) REFERENCES `addresses` (`address_id`) ON DELETE CASCADE) in C:\xampp\htdocs\ecommerce-ci\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce-ci\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ecommerce-ci\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ecommerce-ci\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ecommerce-ci\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ecommerce-ci\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ecommerce-ci\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ecommerce-ci\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\ecommerce-ci\app\Controllers\UsersController.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\ecommerce-ci\system\CodeIgniter.php(933): App\Controllers\UsersController->create()
+#9 C:\xampp\htdocs\ecommerce-ci\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+#10 C:\xampp\htdocs\ecommerce-ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ecommerce-ci\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ecommerce-ci\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\ecommerce-ci\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-09-03 16:15:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`address_id`) REFERENCES `addresses` (`address_id`) ON DELETE CASCADE)
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `password`, `surname`, `email`, `status`, `confirm_code`) VALUES (:name:, :password:, :surname:, :email:, :status:, :confirm_code:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UsersController.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsersController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 16:15:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`address_id`) REFERENCES `addresses` (`address_id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `password`, `surname`, `email`, `status`, `confirm_code`) VALUES (\'luca\', \'$2y$10$G2ESVmBZWau8g5Sn.BV8aOysFNyfssynZw/NkSMiQET.NNHW6kQii\', \'Rossi\', \'cs@adfad.c\', 0, \'030339a5fd7163234ec95a032abe58901b030342\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `password`, `surname`, `email`, `status`, `confirm_code`) VALUES (\'luca\', \'$2y$10$G2ESVmBZWau8g5Sn.BV8aOysFNyfssynZw/NkSMiQET.NNHW6kQii\', \'Rossi\', \'cs@adfad.c\', 0, \'030339a5fd7163234ec95a032abe58901b030342\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `password`, `surname`, `email`, `status`, `confirm_code`) VALUES (:name:, :password:, :surname:, :email:, :status:, :confirm_code:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\UsersController.php(43): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsersController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-03 16:15:01 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`ecommerce`.`users`, CONSTRAINT `users_ibfk_1` FOREIGN KEY (`address_id`) REFERENCES `addresses` (`address_id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `users` (`name`, `password`, `surname`, `email`, `status`, `confirm_code`) VALUES (\'luca\', \'$2y$10$G2ESVmBZWau8g5Sn.BV8aOysFNyfssynZw/NkSMiQET.NNHW6kQii\', \'Rossi\', \'cs@adfad.c\', 0, \'030339a5fd7163234ec95a032abe58901b030342\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`name`, `password`, `surname`, `email`, `status`, `confirm_code`) VALUES (\'luca\', \'$2y$10$G2ESVmBZWau8g5Sn.BV8aOysFNyfssynZw/NkSMiQET.NNHW6kQii\', \'Rossi\', \'cs@adfad.c\', 0, \'030339a5fd7163234ec95a032abe58901b030342\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`name`, `password`, `surname`, `email`, `status`, `confirm_code`) VALUES (\'luca\', \'$2y$10$G2ESVmBZWau8g5Sn.BV8aOysFNyfssynZw/NkSMiQET.NNHW6kQii\', \'Rossi\', \'cs@adfad.c\', 0, \'030339a5fd7163234ec95a032abe58901b030342\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `password`, `surname`, `email`, `status`, `confirm_code`) VALUES (:name:, :password:, :surname:, :email:, :status:, :confirm_code:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UsersController.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsersController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 16:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:48:47 --> CSRF token verified.
+INFO - 2024-09-03 16:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 16:48:47 --> BadMethodCallException: Call to undefined method App\Models\AddressesModel::getLastInsertId
+[Method: POST, Route: register]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\UsersController.php(50): CodeIgniter\Model->__call('getLastInsertId', [])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UsersController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 16:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:51:07 --> CSRF token verified.
+INFO - 2024-09-03 16:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-03 16:51:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-09-03 16:51:11 --> 220 MI1P293CA0028.outlook.office365.com Microsoft ESMTP MAIL Service ready at Tue, 3 Sep 2024 16:51:07 +0000 [08DCCBBC2A8270CC]
+
+hello: 250-MI1P293CA0028.outlook.office365.com Hello [2a0e:419:6eb4:0:216a:9e8c:9614:3391]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-STARTTLS
+250-8BITMIME
+250-BINARYMIME
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 SMTP server ready
+
+hello: 250-MI1P293CA0028.outlook.office365.com Hello [2a0e:419:6eb4:0:216a:9e8c:9614:3391]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH LOGIN XOAUTH2
+250-8BITMIME
+250-BINARYMIME
+250-CHUNKING
+250 SMTPUTF8
+
+from: 250 2.1.0 Sender OK
+
+to: 250 2.1.5 Recipient OK
+
+data: 354 Start mail input; end with <CRLF>.<CRLF>
+
+554 5.2.0 STOREDRV.Submission.Exception:OutboundSpamException; Failed to process message due to a permanent exception with message [BeginDiagnosticData]WASCL UserAction verdict is not None. Actual verdict is Suspend, ShowTierUpgrade. OutboundSpamException: WASCL UserAction verdict is not None. Actual verdict is Suspend, ShowTierUpgrade.[EndDiagnosticData] [Hostname=VI1PR02MB10250.eurprd02.prod.outlook.com]
+
+quit: 221 2.0.0 Service closing transmission channel
+
+The following SMTP error was encountered: 554 5.2.0 STOREDRV.Submission.Exception:OutboundSpamException; Failed to process message due to a permanent exception with message [BeginDiagnosticData]WASCL UserAction verdict is not None. Actual verdict is Suspend, ShowTierUpgrade. OutboundSpamException: WASCL UserAction verdict is not None. Actual verdict is Suspend, ShowTierUpgrade.[EndDiagnosticData] [Hostname=VI1PR02MB10250.eurprd02.prod.outlook.com]
+
+INFO - 2024-09-03 16:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 16:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 17:22:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "register/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register/login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('register/login', [], true)
+ 3 APPPATH\Controllers\LoginController.php(16): view('register/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->loginUser()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 17:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 17:23:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\LoginController.php(16): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->loginUser()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 17:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-03 17:24:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "register/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register/login.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('register/login', [], true)
+ 3 APPPATH\Controllers\LoginController.php(16): view('register/login')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->loginUser()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-03 17:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:39:46 --> CSRF token verified.
+INFO - 2024-09-03 17:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 17:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-03 18:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

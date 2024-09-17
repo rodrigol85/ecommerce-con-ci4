@@ -1,0 +1,10 @@
+__ci_last_regenerate|i:1725260808;_ci_previous_url|s:63:"http://localhost/ecommerce-ci/public/index.php/be/users/edit/15";logged_in|b:1;userid|s:2:"21";email|s:20:"rlacarruba@gmail.com";_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:11:{s:7:"_method";s:3:"PUT";s:10:"address_id";s:2:"15";s:2:"id";s:2:"15";s:4:"name";s:7:"Luciano";s:7:"cognome";s:5:"Verdi";s:5:"email";s:18:"rlacruba@gmail.com";s:8:"telefono";s:11:"06451150101";s:6:"status";s:9:"activated";s:6:"street";s:9:"Via rocca";s:4:"city";s:4:"roma";s:3:"cap";s:5:"00125";}}__ci_vars|a:3:{s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";s:5:"error";s:3:"old";}_ci_validation_errors|a:2:{s:7:"surname";s:30:"The surname field is required.";s:5:"email";s:44:"The email field must contain a unique value.";}error|s:298:"<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>The surname field is required.</li>
+					<li>The email field must contain a unique value.</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+";
